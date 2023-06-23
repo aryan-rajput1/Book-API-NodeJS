@@ -1,0 +1,14 @@
+Operators in MongoDB:
+
+1. Logical Operators:
+  -> $inc : increment Operators, to decrement we can use (-1,-2...) increment
+  -> $min : return minimum
+  -> $max : return maximum
+  -> $set : used to set a data
+  -> $unset : removing a certain property from array
+
+2. Array Operators:
+  -> $push : push a value in an array
+  -> $pop : pop an element from an array
+  -> $pull : it can pop any element from the array
+  -> $addtoset : it is same as push but does not allow duplicate element

@@ -1,0 +1,38 @@
+Requirements for our Book API project:
+
+GET METHOD :
+Books: ISBN, title, publication date, language, num page, author[], category[]
+  We need an api for:
+  To get all the books --> done
+  To get specific books --> done
+  To get a list of books based on category --> done
+  To get a list of books based on language --> done
+
+Authors: ID, Name, books[]
+  We need an api for:
+  To get all the authors --> done
+  To get a specific author by name --> done
+  To get list of author by book --> done
+
+Publication: ID, Name, books[]
+  We need an api for:
+  To get all the publication --> done
+  To get a specific publication --> done
+  To get a publication based on books --> done
+
+POST METHOD :
+Add new book --> done
+Add new author --> done
+Add new publication --> done
+
+
+PUT METHOD :
+Update the book publication if the entered isbn matches --> done
+
+
+DELETE METHOD :
+delete a book from the dataset --> done
+delete author from dataset --> done
+delete an author from the book also delete the book from author dataset --> 
+
+Now we have to design and code an API for this information
